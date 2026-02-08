@@ -19,7 +19,7 @@ body{
 .deel_2{background-color: lightgreen;}
 .deel_9{background-color: snow;}
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 600px){
     [class*="deel_"]{
         float: left;
         padding: 15px;
@@ -66,4 +66,5 @@ img {
     max-width: 240px;
     max-height: 120px;
     float: right;
+
 }
