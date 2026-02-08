@@ -1,0 +1,69 @@
+html{
+    font-family: 'Arimo';
+}
+
+body{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+          
+[class*="deel_"]{
+    width: 100%;
+}
+
+.deel_2{background-color: lightgreen;}
+.deel_9{background-color: snow;}
+
+@media only screen and (min-width: 768px){
+    [class*="deel_"]{
+        float: left;
+        padding: 15px;
+        height: 335px;
+    }
+
+    .deel_1{width: 8.33%;}
+    .deel_2{width: 16.66%;background-color: lightgreen;}
+    .deel_3{width: 25%;}
+    .deel_4{width: 33.33%;}
+    .deel_5{width: 41.66%;}
+    .deel_6{width: 50%;}
+    .deel_7{width: 58.33%;}
+    .deel_8{width: 66.66%;}
+    .deel_9{width: 75%;background-color: snow;}
+    .deel_10{width: 83.33%;}
+    .deel_11{width: 91.66%;}
+    .deel_12{width: 100%;}
+}
+
+header {
+    height: 150px;
+    background-image: url("Borsbeek.jpg");
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+    color: white;
+    margin: 0;
+}
+
+footer {
+    clear: both;
+    height: 50px;
+    background-color: forestgreen;
+}
+
+.footertext {
+    padding-top: 17px;
+}
+
+img {
+    max-width: 240px;
+    max-height: 120px;
+    float: right;
+}
